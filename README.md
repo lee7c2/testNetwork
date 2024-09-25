@@ -1,4 +1,4 @@
-# textNetwork
+# testNetwork
 
 ## 简介
 可用于多线激光雷达网络测试，如雷达发生断流情况，其中一部分原因是网络问题。可以使用pingSingle.sh脚本检测（间隔时间可以自己调整，超时会生成ping_failure.log文件），还有一种情况是多线雷达直连电脑时，握手速率低于1000M会停发数据包（可以运行testSpeed.sh脚本，检测到速率改变就会生成条目在ping_failure.log文件）
