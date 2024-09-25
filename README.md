@@ -7,29 +7,29 @@
 **使用前先打开.sh文件配置ip，记得给文件赋777权限在运行**
 
 ### pingSingle.sh配置示例
-col 3：改成检测物ip
+1. col 3：改成检测物ip
 `ip_address="192.168.1.201"`
 
 
-col 12：设置延迟时间(目前是0.5秒)
+2. col 12：设置延迟时间(目前是0.5秒)
 `sleep 0.5`
 
-保存，运行`./pingSingle.sh`不要关闭终端
+3. 保存，运行`./pingSingle.sh`不要关闭终端
 
 ### testSpeed.sh配置示例
-col 4：改成正确网卡名称
+1. col 4：改成正确网卡名称
 `interface="eth0"`
 
 
-col 5:改成检测物ip
+2. col 5: 改成检测物ip
 `ip_address="192.168.1.200"`
 
 
-col 20：设置延迟时间(目前是0.5秒)
+3. col 20：设置延迟时间(目前是0.5秒)
 `sleep 0.5`
 
 
-保存，运行`./testSpeed.sh`不要关闭终端
+4. 保存，运行`./testSpeed.sh`不要关闭终端
 
 ### 查看报错文件
 脚本正常运行时，遇到断ping，或者网卡握手速率改变就是写入ping_failure.log文件
